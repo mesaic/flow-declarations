@@ -1,7 +1,7 @@
-declare module '@kadira/storybook' { declare var exports: any }
-declare module '@kadira/storybook-addon-options' { declare var exports: any }
 declare module '@kadira/react-storybook-addon-info' { declare var exports: any }
 declare module '@kadira/react-storybook-addons' { declare var exports: any }
+declare module '@kadira/storybook' { declare var exports: any }
+declare module '@kadira/storybook-addon-options' { declare var exports: any }
 declare module 'autoprefixer' { declare var exports: any }
 declare module 'babel-polyfill' { declare var exports: any }
 declare module 'babel-register' { declare var exports: any }
@@ -23,6 +23,7 @@ declare module 'graphql/error' { declare var exports: any }
 declare module 'graphql/language' { declare var exports: any }
 declare module 'history' { declare var exports: any }
 declare module 'marked' { declare var exports: any }
+declare module 'mesaic-react-storybook-addon-info' { declare var exports: any }
 declare module 'moment/locale/de' { declare var exports: any }
 declare module 'oauth2orize' { declare var exports: any }
 declare module 'oauth2orize/lib/errors/tokenerror' { declare var exports: any }
