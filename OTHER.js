@@ -22,6 +22,7 @@ declare module 'geolib' { declare var exports: any }
 declare module 'graphql/error' { declare var exports: any }
 declare module 'graphql/language' { declare var exports: any }
 declare module 'history' { declare var exports: any }
+declare module 'jison' { declare var exports: any }
 declare module 'marked' { declare var exports: any }
 declare module 'mesaic-react-storybook-addon-info' { declare var exports: any }
 declare module 'moment/locale/de' { declare var exports: any }
@@ -44,5 +45,6 @@ declare module 'response-time' { declare var exports: any }
 declare module 'serve-favicon' { declare var exports: any }
 declare module 'sinon' { declare var exports: any }
 declare module 'twilio' { declare var exports: any }
+declare module 'web-push' { declare var exports: any }
 declare module 'webpack' { declare var exports: any }
 declare module 'webpack-validator' { declare var exports: any }
