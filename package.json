@@ -4,7 +4,7 @@
   "description": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wish-technology/flow-declarations.git"
+    "url": "git+https://github.com/mesaic/flow-declarations.git"
   },
   "author": "Mesaic",
   "license": "Nope"
