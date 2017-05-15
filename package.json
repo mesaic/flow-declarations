@@ -1,7 +1,10 @@
 {
-  "name": "flow-declarations",
-  "version": "1.0.0",
+  "name": "@mesaic/flow-declarations",
+  "version": "0.0.0",
   "description": "",
+  "publishConfig": {
+     "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mesaic/flow-declarations.git"
