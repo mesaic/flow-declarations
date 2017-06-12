@@ -42,6 +42,7 @@ declare module 'react-router' { declare var exports: any }
 declare module 'react-router-scroll' { declare var exports: any }
 declare module 'react-tap-event-plugin' { declare var exports: any }
 declare module 'response-time' { declare var exports: any }
+declare module 's3-lister' { declare var exports: any }
 declare module 'serve-favicon' { declare var exports: any }
 declare module 'sinon' { declare var exports: any }
 declare module 'twilio' { declare var exports: any }
