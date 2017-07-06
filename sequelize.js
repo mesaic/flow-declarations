@@ -27,6 +27,8 @@ declare module 'sequelize' {
     static SET_DEFERRED: any;
     static SET_IMMEDIATE: any;
   }
+
+  declare var Model: any;
 }
 
 declare module 'sequelize/lib/model' {
