@@ -19,18 +19,15 @@ declare module 'sequelize' {
   declare function col(name: string): Object;
   declare function or(...args: any[]): Object;
   declare function and(...args: any[]): Object;
+  declare function literal(val: string): any;
 
   declare class Deferrable {
-    static INITIALLY_DEFERRED: any;
-    static INITIALLY_IMMEDIATE: any;
-    static NOT: any;
-    static SET_DEFERRED: any;
-    static SET_IMMEDIATE: any;
+    static INITIALLY_DEFERRED: any,
+    static INITIALLY_IMMEDIATE: any,
+    static NOT: any,
+    static SET_DEFERRED: any,
+    static SET_IMMEDIATE: any,
   }
 
   declare var Model: any;
-}
-
-declare module 'sequelize/lib/model' {
-  declare var exports: any;
 }
