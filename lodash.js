@@ -329,7 +329,7 @@ declare module 'lodash/mapKeys' { declare function exports(object?: ?Object, ite
 declare module 'lodash/mapValues' { declare function exports(object?: ?Object, iteratee?: OIteratee<*>): Object; }
 declare module 'lodash/merge' { declare function exports(object?: ?Object, ...sources?: Array<?Object>): Object; }
 declare module 'lodash.merge' { declare function exports(object?: ?Object, ...sources?: Array<?Object>): Object; }
-declare module 'lodash/mergeWith' { declare function exports<T: Object, A: Object>(object: T, customizer?: (objValue: any, srcValue: any, key: string, object: T, source: A) => any|void): Object; }
+// declare module 'lodash/mergeWith' { declare function exports<T: Object, A: Object>(object: T, customizer?: (objValue: any, srcValue: any, key: string, object: T, source: A) => any|void): Object; }
 declare module 'lodash/mergeWith' { declare function exports<T: Object, A: Object, B: Object>(object: T, s1: A, s2: B, customizer?: (objValue: any, srcValue: any, key: string, object: T, source: A|B) => any|void): Object; }
 declare module 'lodash/mergeWith' { declare function exports<T: Object, A: Object, B: Object, C: Object>(object: T, s1: A, s2: B, s3: C, customizer?: (objValue: any, srcValue: any, key: string, object: T, source: A|B|C) => any|void): Object; }
 // declare module 'lodash/mergeWith' { declare function exports<T: Object, A: Object, B: Object, C: Object, D: Object>(object: T, s1: A, s2: B, s3: C, s4: D, customizer?: (objValue: any, srcValue: any, key: string, object: T, source: A|B|C|D) => any|void): Object; }
