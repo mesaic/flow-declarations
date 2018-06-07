@@ -1,3 +1,3 @@
 declare module 'chrono-node' {
-  declare function parseDate(in: string): ?Date;
+  declare function parseDate(input: string): ?Date;
 }
